@@ -1,15 +1,23 @@
 .search {
-    background-color: var(--sec-clr);
-    border-radius: var(--border-radius);
+       
     display: flex;
     width: 29.5rem;
-  
+  img{
+    width: 1rem;
+    margin-right: -20px;
+    z-index: 1;
+  }
     input {
       border: none;
       border-radius: inherit;
-      padding: 1rem;
+      background-color: var(--sec-clr);
+      padding: 1rem 2rem;
       width: 100%;
       font-size: inherit;
+      border-radius: var(--border-radius);
+      &:focus{
+        outline: 2px solid gray;
+      }
     }
   
     input::placeholder {
