@@ -1,14 +1,16 @@
 import React from 'react'
-
+import './Search.scss'
 const Search = ({ searchCountry }) => {
     return (
-      <input
+     <div className="search">
+         <input
         type="search"
-        id="search"
+       
         name="search"
         onChange={searchCountry}
         placeholder="Search for a country..."
       />
+     </div>
     );
   }
   

@@ -1,0 +1,23 @@
+.search {
+    background-color: var(--sec-clr);
+    border-radius: var(--border-radius);
+    display: flex;
+    width: 29.5rem;
+  
+    input {
+      border: none;
+      border-radius: inherit;
+      padding: 1rem;
+      width: 100%;
+      font-size: inherit;
+    }
+  
+    input::placeholder {
+      color: var(--input);
+    }
+  
+    input:focus::placeholder {
+      color: transparent;
+    }
+  }
+  

@@ -1,5 +1,5 @@
 import React from "react"
-
+import './Region.scss'
 const Region = ({ regionFilter }) => {
     return (
       <select name="filter" id="filter" onChange={regionFilter}>
