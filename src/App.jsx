@@ -41,7 +41,12 @@ const App = () => {
   };
 
   return (
+    <div className="container">
+      <header>
+        <h1 className="title">Where in the world?</h1>
+      </header>
     <main>
+        
       <div className="bars">
         <Search searchCountry={searchCountry} />
         <Region regionFilter={regionFilter} />
@@ -52,6 +57,7 @@ const App = () => {
         ))}
       </div>
     </main>
+    </div>
   );
 };
 
